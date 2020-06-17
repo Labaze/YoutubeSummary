@@ -25,7 +25,7 @@ SECRET_KEY = 'kd^5^-&&1s026v&(uvdk3$*_f7+#*&37o30#rph2_grs*(dvqf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['0.O.0.O','localhost','https://youtubesummary.herokuapp.com/']
+ALLOWED_HOSTS = ['0.O.0.O','localhost','https://youtubesummarybasile.herokuapp.com/']
 
 CSRF_COOKIE_SECURE = True
 
