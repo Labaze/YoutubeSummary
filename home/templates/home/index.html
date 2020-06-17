@@ -1,0 +1,19 @@
+{% extends 'home/base.html' %}
+
+{% block title %}
+Index
+{% endblock %}
+{% block styles %}
+{% endblock %}
+
+{% block body %}
+<div class="container-fluid">
+
+		<h4>Paste a Youtube URL</h4>
+		<p>Don't forget what you learnt yesterday.</p>
+		<form action="{% url 'results' %}", method = "post">
+			{% csrf_token %}
+			<input class="form-control form-control-lg" type="url" placeholder="https://www.youtube.com/watch?v=QE8kNh52EeU" name='url'>
+		</form>
+</div>
+{% endblock %}

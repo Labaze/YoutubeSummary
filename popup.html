@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+        <title>Basile Summary</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+        <script src="popup.js"></script>
+  </head>
+  <body>
+        <div class="container">
+            <h4>Youtube Summary</h4>
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <button type="button" id = "option1" class="btn btn-secondary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    FR
+                </button>
+                <button type="button" id = "option2" class="btn btn-secondary btn-sm" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    EN
+                </button>
+            </div>
+            <form>
+                <div class="form-group">
+                <label id ="text_slider" for="formControlRange">Length of Summary</label>
+                    <input type="range" class="form-control-range" min="0.05" max="0.2" step="0.05" value="0.05"  id="range">
+                </div>
+            </form>
+            <a class="btn btn-primary" id="summarize" href="#">Summarize</a>
+            <p id = "text_resume"></p>
+            <footer>
+                <p>@ Basile Masson</p>
+            </footer>
+        </div>
+  </body>
+</html>

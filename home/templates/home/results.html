@@ -1,0 +1,18 @@
+{% extends 'home/base.html' %}
+
+{% block title %}
+Index
+{% endblock %}
+{% block styles %}
+{% endblock %}
+
+{% block body %}
+<div class="container-fluid">
+
+		<h4>This is the results page</h4>
+		<p>{{resume}}</p>
+
+		<input class="btn btn-primary" type="button" value="Go back" onclick="location.href='{% url 'index' %}'"/>
+
+</div>
+{% endblock %}

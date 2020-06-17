@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:  300px;
+}
+
+#summarize {
+    width: 100px;
+    font-family: 'Sriracha', cursive;
+}
+
+#text_resume {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+h4 {
+    padding-top: 10px;
+    font-family: 'Sriracha', cursive;
+}
+
+footer p {
+    font-size: 8px;
+}
+
+#text_slider {
+    padding-top: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+
